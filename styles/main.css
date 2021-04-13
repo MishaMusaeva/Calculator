@@ -1,0 +1,141 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Kavivanar&family=Oi&family=Ravi+Prakash&display=swap');
+
+html,body {
+    padding: 0;
+    margin: 0;
+    background-color:rgb(22, 22, 22);
+   
+  }
+  h2{
+      color: black;
+      font-family: 'Oi', cursive;
+      font-family: 'Ravi Prakash', cursive;
+      font-size: 85px;
+      text-align: center;
+      margin-top: 30px;  
+      color:cornsilk;  
+      background-color:teal; 
+  }
+
+
+  .calculator_card {
+    border: 1px solid #ccc;
+    border: none;
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    height: 600px;
+    
+    
+  }
+
+  .calculator2 {
+    width: 70%;
+    height: 120px;
+    color: #fff;
+    text-align: right;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 4rem;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: none;
+    
+  }
+  
+  input {
+    height: 60px;
+    font-size: 3rem;
+    border: none;
+    background-color:teal;
+    color:cornsilk;
+  }
+  button:hover{
+      background-color:darkgrey;
+  }
+
+  .equal{
+    height: 98%;
+    grid-area: 2 / 4 / 6 / 5;
+  }
+
+  .calculator_keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  */
+  @import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+
+  body{
+  margin-top: 10px;
+  margin-left: 570px;
+  /* background-color:#243C40; */
+  background-color: black;
+}
+h2{
+  font-size: 4rem;
+  position: relative;
+  right: 130px;
+  color:rgb(255, 102, 0);
+  font-family: 'Stick', sans-serif;;
+
+
+}
+input{
+  width: 300px;
+  height: 70px;
+  margin-left: 30px;
+  font-size: 3rem;
+  border: none;
+  outline: none;
+  box-shadow: unset;
+  background-color: white;
+  font-family: 'Stick', sans-serif;;
+  
+  
+}
+.btn{
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background-color: chartreuse;
+  font-family: 'Stick', sans-serif;;
+}
+.btn:hover{
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
